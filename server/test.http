@@ -1,0 +1,27 @@
+GET http://localhost:3000/estates
+###
+GET http://localhost:3000/estates?preis=19780072
+###
+DELETE http://localhost:3000/estate/2
+###
+GET http://localhost:3000/staff
+###
+POST http://localhost:3000/staff
+Content-Type: application/json
+
+{
+    "name": "Ich bin zu gut",
+    "image": "images/staff/placeholder.jpg",
+    "phone": "+43676879616488",
+    "office": "1210 Wien"
+}
+###
+DELETE http://localhost:3000/staff/10
+###
+PATCH http://localhost:3000/estate/11
+Content-Type: application/json
+
+{
+    "title": "Wenns funtioniert, bin ich ein Genie",
+    "preis": "1234"
+}

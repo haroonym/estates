@@ -1,0 +1,15 @@
+{
+  "name": "jest02",
+  "version": "1.0.0",
+  "main": "compareFunction.js",
+  "scripts": {
+    "test": "jest --coverage"
+  },
+  "keywords": [],
+  "author": "HY",
+  "license": "ISC",
+  "description": "",
+  "devDependencies": {
+    "jest": "^27.4.7"
+  }
+}
